@@ -3,9 +3,9 @@
     const coursedisplay = document.getElementById("coursedisplay");
     
     $(document).ready(function() {
-        // Toggle container visibility on #coursedisplay click
+       
         $(coursedisplay).click(function(event) {
-            event.stopPropagation(); // Prevent click event from bubbling up to the document
+            event.stopPropagation();
             $(container).toggle();
             $(this).css({
                 'background-color': '#e7e7e7',
@@ -24,9 +24,9 @@
             }
         });
     
-        // Prevent container from closing when clicking inside it
+       
         $(container).click(function(event) {
-            event.stopPropagation(); // Prevent click event from bubbling up to the document
+            event.stopPropagation(); 
         });
     });
     
