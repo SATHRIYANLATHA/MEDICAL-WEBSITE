@@ -100,21 +100,21 @@ body{
 
 .navbar2 a {
     text-decoration: none;
-    color: darkgray; /* Very light gray color for text */
+    color: darkgray; 
     font-size: small;
 }
 
 li.blong {
     background-color: #e7e7e7;
-    padding: 15px; /* Adjust as needed */
-    margin: 0; /* Reset margins if necessary */
-    display: block; /* Ensure it behaves as a block element */
+    padding: 15px;
+    margin: 0;
+    display: block; 
 }
 
 
-/* Add hover effect for better visibility */
+
 .navbar2 a:hover {
-    color: #000000; /* Black color on hover */
+    color: #000000;
 }
 
 
@@ -223,11 +223,11 @@ footer a:hover{
 }
 
 .archive-table tbody tr:nth-child(even) {
-    background-color: #ecf9f2;/* Light blue for even rows */
+    background-color: #ecf9f2;
 }
 
 .archive-table tbody tr:nth-child(odd) {
-    background-color: #f1f1f1;  /* White for odd rows */
+    background-color: #f1f1f1; 
 }
 
 
